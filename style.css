@@ -20,7 +20,8 @@
 	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
 	background-size: cover;
 	background-position: center;
-	position: relative;
+	/* position: relative; */
+    position: fix;
 }
 
 
@@ -51,6 +52,7 @@ img{
     /* font-size: 29px; */
     margin: 0;
     text-transform: uppercase;
+    color: #999;
 }
 
 
@@ -82,4 +84,5 @@ img{
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    white-space: pre;
 }
